@@ -7,7 +7,7 @@
 	import { goto } from '@sapper/app'
 </script>
 
-<div transition:fade class="page flex flex-col select-none min-h-screen">
+<div out:fade in:fade="{{delay: 500}}" class="page flex flex-col select-none min-h-screen">
 <main on:click="{() => goto('/about')}" class="flex-1 pb-0 pt-16 px-16 lg:px-20 align-middle select-none">
 	<h1 class="font-display text-5xl lg:text-6xl"> Hello. I'm Rohil. </h1>
 	<h1 class="font-display text-5xl lg:text-6xl">Welcome to my website. </h1>
