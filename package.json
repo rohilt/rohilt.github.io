@@ -7,12 +7,12 @@
     "build:tailwind": "cross-env NODE_ENV=production postcss static/tailwind.css -o static/index.css",
     "dev": "concurrently \"sapper dev\" \"yarn run watch:tailwind\"",
     "build": "yarn run build:tailwind && sapper build --legacy",
-    "export": "sapper export --basepath rohilt.github.io --legacy",
+    "export": "sapper export --legacy",
     "start": "node __sapper__/build",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
     "test": "run-p --race dev cy:run",
-    "deploy": "npm run export && node ./scripts/gh-pages.js"
+    "deploy": "npm run clean && npm run export && node ./scripts/gh-pages.js"
   },
   "dependencies": {
     "compression": "^1.7.1",

@@ -1,10 +1,10 @@
 var ghpages = require('gh-pages');
 
 ghpages.publish(
-    '__sapper__/export/rohilt.github.io',// <-- replace yourproject with your repo name
+    '__sapper__/export',// <-- replace yourproject with your repo name
     {
-        branch: 'gh-pages',
-        repo: 'https://github.com/rohilt/rohilt.github.io.git',
+        branch: 'master',
+        repo: 'rohilt.github.io',
         user: {
             name: 'Rohil Tuli',
             email: 'rohil.tuli@gmail.com'
