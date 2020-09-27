@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>About</title>
+	<title>Rohil Tuli | About Me</title>
 </svelte:head>
 
 <script>

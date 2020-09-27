@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Projects</title>
+	<title>Rohil Tuli | Projects</title>
 </svelte:head>
 
 <script>
@@ -18,23 +18,23 @@
 	<div class="pt-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
 		<div class="max-w-sm rounded overflow-hidden shadow-xl bg-white bg-opacity-95">
 			<div class="px-6 py-4">
-			<div class="font-display text-xl mb-2">UF NeuroNav</div>
+			<div class="font-display text-2xl mb-2">UF NeuroNav</div>
 			<p class="text-gray-700 text-base">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
 			</p>
 			</div>
 			<div class="px-6 py-4">
+				<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-1">Agile</span>
 			<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-1">JavaScript</span>
 			<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-1">ReactJS</span>
 			<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-1">NodeJS</span>
 			<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-1">MongoDB</span>
 			<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-1">API Integrations</span>
-			<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-1">Agile</span>
 			</div>
 		</div>
 		<div class="max-w-sm rounded overflow-hidden shadow-xl bg-white bg-opacity-95">
 			<div class="px-6 py-4">
-			<div class="font-display text-xl mb-2">Pascal Interpreter</div>
+			<div class="font-display text-2xl mb-2">Pascal Interpreter</div>
 			<p class="text-gray-700 text-base">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
 			</p>
@@ -46,7 +46,7 @@
 		</div>
 		<div class="max-w-sm rounded overflow-hidden shadow-xl bg-white bg-opacity-95">
 			<div class="px-6 py-4">
-			<div class="font-display text-xl mb-2">Type Inference Mechanism</div>
+			<div class="font-display text-2xl mb-2">Type Inference Mechanism</div>
 			<p class="text-gray-700 text-base">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
 			</p>
@@ -58,7 +58,7 @@
 		</div>
 		<div class="max-w-sm rounded overflow-hidden shadow-xl bg-white bg-opacity-95">
 			<div class="px-6 py-4">
-			<div class="font-display text-xl mb-2">Stack-Sortable Permutations</div>
+			<div class="font-display text-2xl mb-2">Stack-Sortable Permutations</div>
 			<p class="text-gray-700 text-base">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
 			</p>
@@ -71,7 +71,7 @@
 		</div>
 		<div class="max-w-sm rounded overflow-hidden shadow-xl bg-white bg-opacity-95">
 			<div class="px-6 py-4">
-			<div class="font-display text-xl mb-2">0h h1 Puzzle Solver</div>
+			<div class="font-display text-2xl mb-2">0h h1 Puzzle Solver</div>
 			<p class="text-gray-700 text-base">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
 			</p>
@@ -83,7 +83,7 @@
 		</div>
 		<div class="max-w-sm rounded overflow-hidden shadow-xl bg-white bg-opacity-95">
 			<div class="px-6 py-4">
-			<div class="font-display text-xl mb-2">Help Deliver</div>
+			<div class="font-display text-2xl mb-2">Help Deliver</div>
 			<p class="text-gray-700 text-base">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
 			</p>
@@ -97,7 +97,7 @@
 		</div>
 		<div class="max-w-sm rounded overflow-hidden shadow-xl bg-white bg-opacity-95">
 			<div class="px-6 py-4">
-			<div class="font-display text-xl mb-2">HeadsUp</div>
+			<div class="font-display text-2xl mb-2">HeadsUp</div>
 			<p class="text-gray-700 text-base">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
 			</p>
@@ -105,11 +105,12 @@
 			<div class="px-6 py-4">
 				<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-1">Hackathon</span>
 				<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-1">React Native</span>
+				<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-1">TypeScript</span>
 			</div>
 		</div>
 		<div class="max-w-sm rounded overflow-hidden shadow-xl bg-white bg-opacity-95">
 			<div class="px-6 py-4">
-			<div class="font-display text-xl mb-2">Anonym</div>
+			<div class="font-display text-2xl mb-2">Anonym</div>
 			<p class="text-gray-700 text-base">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
 			</p>
@@ -117,12 +118,13 @@
 			<div class="px-6 py-4">
 				<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-1">Hackathon</span>
 				<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-1">ReactJS</span>
+				<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-1">JavaScript</span>
 				<span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-1">Blockchain</span>
 			</div>
 		</div>
 		<div class="max-w-sm rounded overflow-hidden shadow-xl bg-white bg-opacity-95">
 			<div class="px-6 py-4">
-			<div class="font-display text-xl mb-2">GatorWealth</div>
+			<div class="font-display text-2xl mb-2">GatorWealth</div>
 			<p class="text-gray-700 text-base">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
 			</p>
@@ -135,7 +137,7 @@
 		</div>
 		<div class="max-w-sm rounded overflow-hidden shadow-xl bg-white bg-opacity-95">
 			<div class="px-6 py-4">
-			<div class="font-display text-xl mb-2">RideShare</div>
+			<div class="font-display text-2xl mb-2">RideShare</div>
 			<p class="text-gray-700 text-base">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
 			</p>

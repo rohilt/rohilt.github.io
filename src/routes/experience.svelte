@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Experience</title>
+	<title>Rohil Tuli | Experience</title>
 </svelte:head>
 
 <script>
@@ -18,65 +18,71 @@
 	<div class="pt-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
 		<div class="max-w-sm rounded overflow-hidden shadow-xl bg-white bg-opacity-95">
 			<div class="px-6 py-4">
-			<div class="font-display text-xl mb-2">The University of Florida</div>
-			<p class="text-gray-700 text-base">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+			<div class="font-display text-2xl mb-2">University of Florida</div>
+			<div class="font-display text-xl mb-2 text-gray-700">B.S. in Computer Science and Mathematics</div>
+			<div class="font-body font-thin uppercase tracking-wider text-sm mb-2 text-gray-600">August 2018 to December 2021</div>
+			<p class="hidden lg:block text-gray-700 text-base">
 			</p>
 			</div>
 		</div>
 		<div class="max-w-sm rounded overflow-hidden shadow-xl bg-white bg-opacity-95">
 			<div class="px-6 py-4">
-			<div class="font-display text-xl mb-2">Land O Lakes High School</div>
-			<p class="text-gray-700 text-base">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+			<div class="font-display text-2xl mb-2">Land O Lakes High School</div>
+			<div class="font-display text-xl mb-2 text-gray-700">IB Diploma Programme</div>
+			<div class="font-body font-thin uppercase tracking-wider text-sm mb-2 text-gray-600">August 2014 to May 2018</div>
+			<p class="hidden lg:block text-gray-700 text-base">
 			</p>
 			</div>
 		</div>
 	</div>
 	<h1 class="font-display text-4xl lg:text-5xl mt-4"> What I've been doing </h1>
 	<div class="pt-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
-		<div class="max-w-sm rounded overflow-hidden shadow-xl bg-white bg-opacity-95 cursor-pointer">
+		<div class="max-w-sm rounded overflow-hidden shadow-xl bg-white bg-opacity-95">
 			<div class="px-6 py-4">
 				<div class="font-display text-2xl mb-2">American Express</div>
 				<div class="font-display text-xl mb-2 text-gray-700">Technology Intern</div>
 				<div class="font-body font-thin uppercase tracking-wider text-sm mb-2 text-gray-600">July 2020 to August 2020</div>
-			<!-- <p class="text-gray-700 text-base">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-			</p> -->
+				<p class="hidden lg:block text-gray-700 text-base">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+				</p>
 			</div>
 		</div>
 		<div class="max-w-sm rounded overflow-hidden shadow-xl bg-white bg-opacity-95">
 			<div class="px-6 py-4">
 			<div class="font-display text-2xl mb-2">Embedded Systems Lab</div>
-			<div class="font-display text-xl mb-2 text-gray-600">Undergraduate Researcher</div>
-			<!-- <p class="text-gray-700 text-base">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-			</p> -->
-			</div>
-		</div>
-		<div class="max-w-sm rounded overflow-hidden shadow-xl bg-white bg-opacity-95">
-			<div class="px-6 py-4">
-			<div class="font-display text-xl mb-2">Mathnasium</div>
-			<div class="font-display text-l mb-2 text-gray-600">Instructor</div>
-			<p class="text-gray-700 text-base">
+			<div class="font-display text-xl mb-2 text-gray-700">Undergraduate Researcher</div>
+			<div class="font-body font-thin uppercase tracking-wider text-sm mb-2 text-gray-600">January 2020 to Present</div>
+			<p class="hidden lg:block text-gray-700 text-base">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
 			</p>
 			</div>
 		</div>
 		<div class="max-w-sm rounded overflow-hidden shadow-xl bg-white bg-opacity-95">
 			<div class="px-6 py-4">
-			<div class="font-display text-xl mb-2">FRC Team 5276</div>
-			<div class="font-display text-l mb-2 text-gray-600">Lead Programmer</div>
-			<p class="text-gray-700 text-base">
+			<div class="font-display text-2xl mb-2">Mathnasium</div>
+			<div class="font-display text-xl mb-2 text-gray-700">Instructor</div>
+			<div class="font-body font-thin uppercase tracking-wider text-sm mb-2 text-gray-600">July 2020 to August 2020</div>
+			<p class="hidden lg:block text-gray-700 text-base">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
 			</p>
 			</div>
 		</div>
 		<div class="max-w-sm rounded overflow-hidden shadow-xl bg-white bg-opacity-95">
 			<div class="px-6 py-4">
-			<div class="font-display text-xl mb-2">LOLHS Mu Alpha Theta</div>
-			<div class="font-display text-l mb-2 text-gray-600">Vice President & Tutor</div>
-			<p class="text-gray-700 text-base">
+			<div class="font-display text-2xl mb-2">FRC Team 5276</div>
+			<div class="font-display text-xl mb-2 text-gray-700">Lead Programmer</div>
+			<div class="font-body font-thin uppercase tracking-wider text-sm mb-2 text-gray-600">August 2014 to May 2018</div>
+			<p class="hidden lg:block text-gray-700 text-base">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+			</p>
+			</div>
+		</div>
+		<div class="max-w-sm rounded overflow-hidden shadow-xl bg-white bg-opacity-95">
+			<div class="px-6 py-4">
+			<div class="font-display text-2xl mb-2">LOLHS Mu Alpha Theta</div>
+			<div class="font-display text-xl mb-2 text-gray-700">Vice President & Tutor</div>
+			<div class="font-body font-thin uppercase tracking-wider text-sm mb-2 text-gray-600">August 2015 to May 2018</div>
+			<p class="hidden lg:block text-gray-700 text-base">
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
 			</p>
 			</div>
