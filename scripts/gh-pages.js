@@ -1,16 +1,17 @@
 var ghpages = require('gh-pages');
 
 ghpages.publish(
-    '__sapper__/export/rohilt.github.io',// <-- replace yourproject with your repo name
-    {
-        branch: 'gh-pages',
-        repo: 'https://github.com/rohilt/rohilt.github.io.git',
-        user: {
-            name: 'Rohil Tuli',
-            email: 'rohil.tuli@gmail.com'
-        }
-    },
-    () => {
+    '__sapper__/export',// <-- replace yourproject with your repo name
+    // {
+    //     branch: 'master',
+    //     repo: 'https://www.github.com/rohilt/rohilt.github.io',
+    //     user: {
+    //         name: 'rohilt',
+    //         email: 'rohil.tuli@gmail.com'
+    //     }
+    // },
+    (err) => {
+        console.log(err)
         console.log('Deploy Complete!')
     }
 )

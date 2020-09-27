@@ -1,13 +1,13 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "Rohil-Tuli",
+  "description": "This is my personal website.",
   "version": "0.0.1",
   "scripts": {
     "watch:tailwind": "postcss static/tailwind.css -o static/index.css -w",
     "build:tailwind": "cross-env NODE_ENV=production postcss static/tailwind.css -o static/index.css",
     "dev": "concurrently \"sapper dev\" \"yarn run watch:tailwind\"",
     "build": "yarn run build:tailwind && sapper build --legacy",
-    "export": "sapper export --basepath rohilt.github.io --legacy",
+    "export": "sapper export --legacy",
     "start": "node __sapper__/build",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
